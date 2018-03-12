@@ -1,0 +1,51 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+input {
+  width: 120px;
+  padding: 12px 20px;
+
+}
+
+html {
+  text-align: center;
+}
+
+h1 {
+  color: #00AB9B;
+}
+
+h2 {
+  color: #00AB9B;
+}
+
+.flex1 {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex2 {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
